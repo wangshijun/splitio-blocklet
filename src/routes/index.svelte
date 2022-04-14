@@ -9,7 +9,7 @@
 	import { getSEA, initAppDB } from '$lib/_modules/initGun';
 	import { redirectToAbout, redirectToGroup } from '$lib/_modules/utils';
 	import { putSecure } from '$lib/_modules/secure';
-	import IconButton from '@smui/icon-button/IconButton.svelte';
+	import IconButton from '@smui/icon-button';
 	import type { IGunStaticSEA } from 'gun/types/static/sea';
 	import LoadingSpinnerOverlay from '$lib/LoadingSpinnerOverlay.svelte';
 	import RecentGroupsList from '$lib/RecentGroupsList.svelte';
